@@ -791,11 +791,13 @@ body {
   transition: background-color var(--animation);
 }
 .footer-subscribe-btn:hover,
-.footer-subscribe-btn:hover {
-  background-color: #188CE8;
+.footer-subscribe-btn:focus {
+  background-color: #ffffff;
+  color: var(--accent-color);
 }
 
 .footer-subscribe-ikon {
+  fill: currentColor;
   margin-left: 10px;
 }
 
